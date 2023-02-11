@@ -34,7 +34,26 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
 }
+.login-btn{
+  border:1px solid grey;
+  color:white;
+  cursor:pointer;
+  border-radius:0.5rem;
+  padding:0.5rem 0.7rem;
+  background-color: #222;
+}
 
+.login-btn:hover{
+  background-color:#222;
+  color:white;
+  font-weight: bold;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -155,7 +174,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 70px;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -679,13 +698,14 @@ section {
 }
 
 .about .content h3 {
-  font-size: 90px;
-    font-weight: bold;
+  font-size: 100px;
+    /* font-weight: bold; */
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
     text-align: center;
+    color:rgb(158, 236, 141);
 }
 .about .content p {
  
@@ -1043,6 +1063,15 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #5846f9;
 }
+.companies-section{
+  justify-content: space-between;
+  gap:50px;
+}
+.companies-section img{
+  max-width:30%;
+  border-radius:0.56rem;
+}
+
 
 @media (max-width: 767px) {
   .section-title h2 {
